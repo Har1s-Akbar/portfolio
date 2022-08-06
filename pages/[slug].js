@@ -23,7 +23,7 @@ function Slug(detaildata) {
   }
   const content = {
     description:<section className='lg:grid lg:grid-cols-2'>
-      <img className='lg:mt-10 lg:ml-10 lg:w-9/12 sm:w-full' src={urlFor(detaildata.detaildata.mainImage)}/>
+      <img className='lg:mt-10 lg:ml-10 lg:w-9/12 sm:w-full' alt={detaildata.detaildata.title} src={urlFor(detaildata.detaildata.mainImage)}/>
       <div>
         <h1 className='text-center lg:text-2xl sm:text-base sm:my-4'>{detaildata.detaildata.title}</h1>
         <Typography.Title level={4}>Description:-</Typography.Title>

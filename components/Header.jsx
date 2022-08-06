@@ -14,7 +14,7 @@ function Header({data}) {
       <Typography.Title type="secondary" className='my-3' level={4} style={{color: "snow"}}>{secondtext}</Typography.Title>
       </div>
       <div className='lg:mt-32 sm:mt-10'>
-        <img className='lg:w-9/12 sm:w-full' src={urlFor(image)} />
+        <img className='lg:w-9/12 sm:w-full' alt={name} src={urlFor(image)} />
       </div>
     </section>
   )
