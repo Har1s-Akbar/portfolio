@@ -1,0 +1,6 @@
+export {default as Nav} from './Nav'
+export {default as Header} from './Header'
+export {default as About} from './About'
+export {default as Tech} from './Tech'
+export {default as TimeLine} from './Timeline'
+export {default as Footer} from './Footer'
